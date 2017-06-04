@@ -1,0 +1,162 @@
+/*success - Primary - Warning - Info - Danger*/
+
+/* ============MODIFY============= */
+.modal-success,
+.modal-primary,
+.modal-warning,
+.modal-info,
+.modal-danger{
+	border: none;
+	border-radius: 0;
+}
+
+.modal-success .modal-header,
+.modal-primary .modal-header,
+.modal-warning .modal-header,
+.modal-info .modal-header,
+.modal-danger .modal-header{
+	flex-direction: column-reverse;
+	padding: 0;
+	padding-bottom: 1rem;
+}
+
+.modal-success .close,
+.modal-primary .close,
+.modal-warning .close,
+.modal-info .close,
+.modal-danger .close{
+	align-self: flex-end;
+}
+
+.modal-success .modal-body p,
+.modal-primary .modal-body p,
+.modal-warning .modal-body p,
+.modal-info .modal-body p,
+.modal-danger .modal-body p{
+	font-size: 1.2rem;
+}
+
+
+.modal-success .modal-footer,
+.modal-primary .modal-footer,
+.modal-warning .modal-footer,
+.modal-info .modal-footer,
+.modal-danger .modal-footer{
+	justify-content: center;
+	border-top: 0;
+	padding-top: 0;
+}
+
+.modal-success .modal-footer .btn-secondary,
+.modal-primary .modal-footer .btn-secondary,
+.modal-warning .modal-footer .btn-secondary,
+.modal-info .modal-footer .btn-secondary,
+.modal-danger .modal-footer .btn-secondary{
+	text-transform: uppercase;
+	font-size: 0.8rem;
+}
+
+/* ============STYLE============= */
+.modal-success .modal-header{
+	background-color: #2ecc71;
+	color: #fff;
+}
+
+.modal-primary .modal-header{
+	background-color: #2980b9;
+	color: #fff;
+}
+
+.modal-warning .modal-header{
+	background-color: #e67e22;
+	color: #fff;
+}
+
+.modal-info .modal-header{
+	background-color: #3498db;
+	color: #fff;
+}
+
+.modal-danger .modal-header{
+	background-color: #c0392b;
+	color: #fff;
+}
+
+.modal-success .close,
+.modal-primary .close,
+.modal-warning .close,
+.modal-info .close,
+.modal-danger .close{
+	color: #fff;
+	opacity: 1;
+	padding-top: 0.3rem;
+	padding-right: 0.5rem;
+}
+
+.modal-success .modal-body p,
+.modal-primary .modal-body p,
+.modal-warning .modal-body p,
+.modal-info .modal-body p,
+.modal-danger .modal-body p{
+	color: #7f8c8d;
+}
+
+.modal-success .modal-footer .btn-secondary{	
+	color: #2ecc71;
+	border-radius: 0;
+	border-color: #2ecc71;
+}
+
+.modal-primary .modal-footer .btn-secondary{
+	color: #2980b9;
+	border-radius: 0;
+	border-color: #2980b9;
+}
+
+.modal-warning .modal-footer .btn-secondary{
+	color: #e67e22;
+	border-radius: 0;
+	border-color: #e67e22;
+}
+
+.modal-info .modal-footer .btn-secondary{
+	color: #3498db;
+	border-radius: 0;
+	border-color: #3498db;
+}
+
+.modal-danger .modal-footer .btn-secondary{
+	color: #c0392b;
+	border-radius: 0;
+	border-color: #c0392b;
+}
+
+.modal-success .modal-footer .btn-secondary:hover{
+	background-color: #2ecc71;
+	color: #fff;
+	cursor: pointer;
+}
+
+.modal-primary .modal-footer .btn-secondary:hover{
+	background-color: #2980b9;
+	color: #fff;
+	cursor: pointer;
+}
+
+.modal-warning .modal-footer .btn-secondary:hover{
+	background-color: #e67e22;
+	color: #fff;
+	cursor: pointer;
+}
+
+.modal-info .modal-footer .btn-secondary:hover{
+	background-color: #3498db;
+	color: #fff;
+	cursor: pointer;
+}
+
+.modal-danger .modal-footer .btn-secondary:hover{
+	background-color: #c0392b;
+	color: #fff;
+	cursor: pointer;
+}
