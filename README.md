@@ -1,4 +1,3 @@
-# atividade-refatoracao
-Atividade Refatoração - Modais 
+# Activity - refactor bootstrap modal 
 
-Refatoração dos Modais (Success - Primary - Warning - Info - Danger)
+Modals (Success - Primary - Warning - Info - Danger)
